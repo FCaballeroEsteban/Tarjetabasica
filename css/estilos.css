@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Mochiy+Pop+One&family=Playpen+Sans:wght@100..800&display=swap');
+
+body{
+    cursor: url("/storage/icons8-seleccionar-cursor-48.png"), auto;
+}
+
+h1{
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+}
+
+.contenedor h1{
+    color: black;
+}    
+.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    padding: 15px;
+    border: 3px solid #f30000;
+    text-align: center;
+    
+}
+
+.contenedor:hover{
+    background-color: #e98571;
+    color: white;
+}
+
+p{
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.contenedor p{
+    display: none;
+}
+
+.contenedor:hover p{
+    display: block;
+}
+
+h3{
+    font-family: "Acme", sans-serif;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.contenedor img{
+    display: none;
+}
+
+.contenedor:hover img{
+    display: block;
+    margin: auto;
+}
